@@ -31,8 +31,8 @@ main.rating {
 }
 .card {
   background-color: var(--dark-blue);
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  /* height: 400px; */
   margin: 0 auto;
   border-radius: 30px;
   padding: 30px;

@@ -13,7 +13,6 @@ for (let i = 0; i < rate.length; i++) {
     });
     rate[i].classList.toggle("checked");
     btn.onclick = function () {
-      console.log(ratingCard);
       ratingCard.style.display = "none";
       thankCard.style.display = "grid";
       let msg = document.createTextNode(`You selected ${rate[i].innerHTML} out of 5`);
